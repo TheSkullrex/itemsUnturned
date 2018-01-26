@@ -1,0 +1,9 @@
+<ul>
+    <% for(var i=0; i<data.length; i++) { %>
+        <li>
+            <%= data[i].ItemName %>
+            <%= data[i].ItemId %>
+            <img height="60" width="60" src="<%= "https://unturneditems.com/media/"+data[i].ItemId+".png" %>"
+        </li>
+    <% } %>
+</ul>
